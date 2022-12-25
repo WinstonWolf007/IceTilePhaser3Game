@@ -1,0 +1,40 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map1.tmx",
+    "fileStates": {
+        "map1.tmx": {
+            "scale": 5.51,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 73.04900181488203,
+                "y": 79.85480943738658
+            }
+        },
+        "map1.tmx#nature": {
+            "scaleInDock": 3,
+            "scaleInEditor": 8
+        }
+    },
+    "last.exportedFilePath": "/var/www/html/icexplore/game/Assets/tile",
+    "last.imagePath": "/var/www/html/icexplore/game/Assets/tile",
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 160,
+    "map.tileWidth": 160,
+    "map.width": 20,
+    "openFiles": [
+        "map1.tmx"
+    ],
+    "property.type": "bool",
+    "recentFiles": [
+        "map1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 160,
+        "width": 160
+    }
+}

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="160" tileheight="160" infinite="0" nextlayerid="4" nextobjectid="1">
+ <editorsettings>
+  <export target="map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="object" tilewidth="160" tileheight="160" tilecount="30" columns="5">
+  <image source="object.png" width="800" height="960"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="2" name="ground" width="20" height="20">
+  <data encoding="csv">
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21
+</data>
+ </layer>
+ <layer id="1" name="border" width="20" height="20">
+  <data encoding="csv">
+1073741826,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,1073741825,3221225474,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+3758096385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612737,
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2147483650
+</data>
+ </layer>
+ <layer id="3" name="obj" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,16,19,19,19,19,19,19,0,0,0,0,0,0,16,19,19,19,19,0,
+0,16,16,16,19,18,18,18,0,20,0,0,0,0,16,16,16,19,19,0,
+0,16,16,19,19,0,0,0,0,0,0,22,0,0,17,17,16,16,19,0,
+0,16,16,19,18,0,0,8,0,0,0,0,0,0,0,0,17,16,19,0,
+0,16,16,19,10,13,0,0,0,0,0,0,0,20,0,0,0,17,18,0,
+0,16,16,19,14,15,0,25,0,20,0,0,10,13,0,0,22,0,0,0,
+0,16,16,19,0,0,0,0,0,0,0,23,14,15,0,25,0,0,0,0,
+0,16,16,19,0,23,0,0,8,0,0,0,0,0,0,0,0,16,19,0,
+0,16,17,18,0,0,0,0,0,0,0,0,0,0,0,8,0,16,19,0,
+0,16,19,0,0,0,0,20,0,0,0,0,0,0,20,0,16,19,19,0,
+0,16,19,0,0,0,0,0,0,0,0,0,0,0,0,16,19,19,19,0,
+0,17,18,0,0,0,0,0,22,0,0,0,0,0,0,16,19,18,19,0,
+0,0,0,20,10,13,0,0,0,0,0,8,0,0,0,16,19,16,19,0,
+0,0,25,0,14,15,0,0,0,0,0,0,0,0,16,19,19,16,19,0,
+0,0,22,0,0,0,23,0,0,0,0,20,0,0,16,19,19,16,19,0,
+0,0,0,16,19,0,0,0,0,0,0,0,0,16,19,19,19,16,19,0,
+0,16,16,17,18,19,19,0,20,0,0,16,19,19,19,19,19,19,19,0,
+0,17,17,17,17,18,18,0,0,0,0,17,18,18,18,18,18,18,18,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
