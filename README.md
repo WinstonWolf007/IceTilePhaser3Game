@@ -1,16 +1,16 @@
 <h1 style="color: red;">Start Project</h1>
 
 ---
-> **In /var/www/html/project**
+> __**In /var/www/html/project**__
 >> **sudo git clone __url__** - 
 >
-> In the folder project
+> __**In the folder project**__
 >> **npm init**
 >
-> ```diff version:3.55.2 !important```
+> __**version:3.55.2**__
 >> **npm install phaser**
 >
-> To chrome/firefox/etc...
+> __**To chrome/firefox/etc...**__
 >> **go 127.0.0.1/__project__** 
 ---
 
