@@ -1,15 +1,17 @@
 <h1 style="color: red;">Start Project</h1>
 
 ---
-
-> **sudo git clone __url__** - In /var/www/html/ folder
-> 
-> **npm init** | In the folder project
-> 
-> **npm install phaser** | version:3.55.2
-> 
-> **go 127.0.0.1/__project__** | To chrome/firefox/etc...
-
+> **In /var/www/html/project**
+>> **sudo git clone __url__** - 
+>
+> In the folder project
+>> **npm init**
+>
+> ```diff version:3.55.2 !important```
+>> **npm install phaser**
+>
+> To chrome/firefox/etc...
+>> **go 127.0.0.1/__project__** 
 ---
 
 # Error
