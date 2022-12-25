@@ -13,7 +13,7 @@
 
 ## check phaser version -> 3.55.2
 ## check if appache2 is installed (folder www/)
-## change path in index.html file for phaser (no phaser3)
+## change path in head link index.html file for phaser (no phaser3)
 
 ---
 
