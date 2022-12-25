@@ -18,4 +18,4 @@
 ---
 
 # Image
-<img src="">
+<img src="./map.png">
