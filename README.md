@@ -2,7 +2,7 @@
 
 ---
 
-## sudo git clone <url> | In /var/www/html/ folder
+## sudo git clone [url] | In /var/www/html/ folder
 ## npm init | In the folder project
 ## npm install phaser | version:3.55.2
 ## go 127.0.0.1/<project> | To chrome/firefox/etc...
