@@ -1,7 +1,8 @@
 <h1 style="color: red;">Start Project</h1>
 
 ---
-```diff
+```py
+print("hello")
 + sudo git clone [url] - In /var/www/html/ folder
 - npm init | In the folder project
 ! npm install phaser | version:3.55.2
